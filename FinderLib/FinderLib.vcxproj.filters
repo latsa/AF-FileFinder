@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd;qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Indexers">
+      <UniqueIdentifier>{a71915b7-0d3e-467c-a991-4bad3af689b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Walkers">
+      <UniqueIdentifier>{cbd84c90-bde0-41c9-98d4-0a7d7819975d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matchers">
+      <UniqueIdentifier>{8795e828-c8cd-496b-95c8-3ebe46e94875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matchers\Matcher1">
+      <UniqueIdentifier>{d056abfa-638b-4b2d-bb75-60e302daf926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matchers\Matcher2">
+      <UniqueIdentifier>{18c8d6c7-b903-499a-be18-7f79a4448454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matchers\Matcher3">
+      <UniqueIdentifier>{0ae3a0d3-bd37-4423-9f55-e57cba57afa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matchers\Matcher4">
+      <UniqueIdentifier>{abed6477-3ab5-4e9b-906c-67091ab91c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matchers\Matcher5">
+      <UniqueIdentifier>{14663338-5a7b-405e-86d3-07083a66317d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Walkers\Walker1">
+      <UniqueIdentifier>{16b824ad-d642-4696-8467-b42ca78b020c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Walkers\Walker2">
+      <UniqueIdentifier>{6bdc0072-f114-4e1c-9f97-7e2a0d18ab5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Walkers\Walker3">
+      <UniqueIdentifier>{be6d046b-5a7b-4c31-b578-2de2d8f8e5e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{6b05595b-1a54-44b6-8158-d74cbacb1b4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Indexers\Indexer1">
+      <UniqueIdentifier>{869b398d-7516-445f-8c65-f40b2f5f3581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Indexers\Indexer2">
+      <UniqueIdentifier>{ee5bb03d-b29e-4fcc-b014-ba00b56cfc92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Indexers\Indexer3">
+      <UniqueIdentifier>{151c0f2b-c35f-4ff3-9720-4a21c25007f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Finder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexers\Indexer.cpp">
+      <Filter>Source Files\Indexers</Filter>
+    </ClCompile>
+    <ClCompile Include="Walkers\Walker.cpp">
+      <Filter>Source Files\Walkers</Filter>
+    </ClCompile>
+    <ClCompile Include="Matchers\match.cpp">
+      <Filter>Source Files\Matchers</Filter>
+    </ClCompile>
+    <ClCompile Include="Matchers\Matcher1\match1.cpp">
+      <Filter>Source Files\Matchers\Matcher1</Filter>
+    </ClCompile>
+    <ClCompile Include="Matchers\Matcher2\match2.cpp">
+      <Filter>Source Files\Matchers\Matcher2</Filter>
+    </ClCompile>
+    <ClCompile Include="Matchers\Matcher3\match3.cpp">
+      <Filter>Source Files\Matchers\Matcher3</Filter>
+    </ClCompile>
+    <ClCompile Include="Matchers\Matcher4\match4.cpp">
+      <Filter>Source Files\Matchers\Matcher4</Filter>
+    </ClCompile>
+    <ClCompile Include="Matchers\Matcher5\match5.cpp">
+      <Filter>Source Files\Matchers\Matcher5</Filter>
+    </ClCompile>
+    <ClCompile Include="Walkers\Walker1\walk1.cpp">
+      <Filter>Source Files\Walkers\Walker1</Filter>
+    </ClCompile>
+    <ClCompile Include="Walkers\Walker2\walk2.cpp">
+      <Filter>Source Files\Walkers\Walker2</Filter>
+    </ClCompile>
+    <ClCompile Include="Walkers\Walker3\walk3.cpp">
+      <Filter>Source Files\Walkers\Walker3</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexers\Indexer1\index1.cpp">
+      <Filter>Source Files\Indexers\Indexer1</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexers\Indexer2\index2.cpp">
+      <Filter>Source Files\Indexers\Indexer2</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexers\Indexer3\index3.cpp">
+      <Filter>Source Files\Indexers\Indexer3</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexers\Indexer1\IndexerThread.cpp">
+      <Filter>Source Files\Indexers\Indexer1</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FinderUtil.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\ListVolumes.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexers\Indexer2\Indexer2Thread.cpp">
+      <Filter>Source Files\Indexers\Indexer2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FinderGlobal.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Walkers\Walker.h">
+      <Filter>Source Files\Walkers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\match.h">
+      <Filter>Source Files\Matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\match_config.h">
+      <Filter>Source Files\Matchers</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\Matcher1\match1.h">
+      <Filter>Source Files\Matchers\Matcher1</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\Matcher2\match2.h">
+      <Filter>Source Files\Matchers\Matcher2</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\Matcher3\match3.h">
+      <Filter>Source Files\Matchers\Matcher3</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\Matcher4\match4.h">
+      <Filter>Source Files\Matchers\Matcher4</Filter>
+    </ClInclude>
+    <ClInclude Include="Matchers\Matcher5\match5.h">
+      <Filter>Source Files\Matchers\Matcher5</Filter>
+    </ClInclude>
+    <ClInclude Include="Walkers\Walker1\walk1.h">
+      <Filter>Source Files\Walkers\Walker1</Filter>
+    </ClInclude>
+    <ClInclude Include="Walkers\Walker2\walk2.h">
+      <Filter>Source Files\Walkers\Walker2</Filter>
+    </ClInclude>
+    <ClInclude Include="Walkers\Walker3\walk3.h">
+      <Filter>Source Files\Walkers\Walker3</Filter>
+    </ClInclude>
+    <ClInclude Include="FinderTypes.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FinderConfig.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FinderUtil.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ListVolumes.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Finder.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Indexers\Indexer.h">
+      <Filter>Source Files\Indexers</Filter>
+    </QtMoc>
+    <QtMoc Include="Indexers\Indexer1\index1.h">
+      <Filter>Source Files\Indexers\Indexer1</Filter>
+    </QtMoc>
+    <QtMoc Include="Indexers\Indexer2\index2.h">
+      <Filter>Source Files\Indexers\Indexer2</Filter>
+    </QtMoc>
+    <QtMoc Include="Indexers\Indexer3\index3.h">
+      <Filter>Source Files\Indexers\Indexer3</Filter>
+    </QtMoc>
+    <QtMoc Include="Indexers\Indexer1\IndexerThread.h">
+      <Filter>Source Files\Indexers\Indexer1</Filter>
+    </QtMoc>
+    <QtMoc Include="Indexers\Indexer2\Indexer2Thread.h">
+      <Filter>Source Files\Indexers\Indexer2</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>
