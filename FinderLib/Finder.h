@@ -7,10 +7,6 @@
 #include "ListVolumes.h"
 #include <QStringList>
 
-#ifdef USE_INDEXER
-class Indexer;
-#endif
-
 class FINDER_EXPORT Finder :
    public QObject {
    Q_OBJECT
@@ -36,15 +32,7 @@ public slots:
    void backend_found(const Hit& hit);
    void backend_status(QString msg);
 
-   #ifdef USE_INDEXER
-   void indexing_started();
-   void indexing_done(qint64 item_count);
-
-private:
-   Indexer* m_indexer = Q_NULLPTR;
-   #endif
-
-private:
+ private:
    bool m_is_about_close = false;
 
    QString m_search_root;

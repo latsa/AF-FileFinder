@@ -17,9 +17,6 @@
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
     </Filter>
-    <Filter Include="Source Files\Indexers">
-      <UniqueIdentifier>{a71915b7-0d3e-467c-a991-4bad3af689b8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Walkers">
       <UniqueIdentifier>{cbd84c90-bde0-41c9-98d4-0a7d7819975d}</UniqueIdentifier>
     </Filter>
@@ -53,22 +50,10 @@
     <Filter Include="Source Files\Utils">
       <UniqueIdentifier>{6b05595b-1a54-44b6-8158-d74cbacb1b4f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Indexers\Indexer1">
-      <UniqueIdentifier>{869b398d-7516-445f-8c65-f40b2f5f3581}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Indexers\Indexer2">
-      <UniqueIdentifier>{ee5bb03d-b29e-4fcc-b014-ba00b56cfc92}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Indexers\Indexer3">
-      <UniqueIdentifier>{151c0f2b-c35f-4ff3-9720-4a21c25007f5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Finder.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Indexers\Indexer.cpp">
-      <Filter>Source Files\Indexers</Filter>
     </ClCompile>
     <ClCompile Include="Walkers\Walker.cpp">
       <Filter>Source Files\Walkers</Filter>
@@ -100,26 +85,11 @@
     <ClCompile Include="Walkers\Walker3\walk3.cpp">
       <Filter>Source Files\Walkers\Walker3</Filter>
     </ClCompile>
-    <ClCompile Include="Indexers\Indexer1\index1.cpp">
-      <Filter>Source Files\Indexers\Indexer1</Filter>
-    </ClCompile>
-    <ClCompile Include="Indexers\Indexer2\index2.cpp">
-      <Filter>Source Files\Indexers\Indexer2</Filter>
-    </ClCompile>
-    <ClCompile Include="Indexers\Indexer3\index3.cpp">
-      <Filter>Source Files\Indexers\Indexer3</Filter>
-    </ClCompile>
-    <ClCompile Include="Indexers\Indexer1\IndexerThread.cpp">
-      <Filter>Source Files\Indexers\Indexer1</Filter>
-    </ClCompile>
     <ClCompile Include="Utils\FinderUtil.cpp">
       <Filter>Source Files\Utils</Filter>
     </ClCompile>
     <ClCompile Include="Utils\ListVolumes.cpp">
       <Filter>Source Files\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="Indexers\Indexer2\Indexer2Thread.cpp">
-      <Filter>Source Files\Indexers\Indexer2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -175,24 +145,6 @@
   <ItemGroup>
     <QtMoc Include="Finder.h">
       <Filter>Source Files</Filter>
-    </QtMoc>
-    <QtMoc Include="Indexers\Indexer.h">
-      <Filter>Source Files\Indexers</Filter>
-    </QtMoc>
-    <QtMoc Include="Indexers\Indexer1\index1.h">
-      <Filter>Source Files\Indexers\Indexer1</Filter>
-    </QtMoc>
-    <QtMoc Include="Indexers\Indexer2\index2.h">
-      <Filter>Source Files\Indexers\Indexer2</Filter>
-    </QtMoc>
-    <QtMoc Include="Indexers\Indexer3\index3.h">
-      <Filter>Source Files\Indexers\Indexer3</Filter>
-    </QtMoc>
-    <QtMoc Include="Indexers\Indexer1\IndexerThread.h">
-      <Filter>Source Files\Indexers\Indexer1</Filter>
-    </QtMoc>
-    <QtMoc Include="Indexers\Indexer2\Indexer2Thread.h">
-      <Filter>Source Files\Indexers\Indexer2</Filter>
     </QtMoc>
   </ItemGroup>
 </Project>

@@ -12,12 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Finder.cpp" />
-    <ClCompile Include="Indexers\Indexer.cpp" />
-    <ClCompile Include="Indexers\Indexer1\index1.cpp" />
-    <ClCompile Include="Indexers\Indexer1\IndexerThread.cpp" />
-    <ClCompile Include="Indexers\Indexer2\index2.cpp" />
-    <ClCompile Include="Indexers\Indexer2\Indexer2Thread.cpp" />
-    <ClCompile Include="Indexers\Indexer3\index3.cpp" />
     <ClCompile Include="Matchers\match.cpp" />
     <ClCompile Include="Matchers\Matcher1\match1.cpp" />
     <ClCompile Include="Matchers\Matcher2\match2.cpp" />
@@ -36,12 +30,6 @@
     <ClInclude Include="FinderConfig.h" />
     <ClInclude Include="FinderGlobal.h" />
     <ClInclude Include="FinderTypes.h" />
-    <QtMoc Include="Indexers\Indexer.h" />
-    <QtMoc Include="Indexers\Indexer1\index1.h" />
-    <QtMoc Include="Indexers\Indexer2\index2.h" />
-    <QtMoc Include="Indexers\Indexer3\index3.h" />
-    <QtMoc Include="Indexers\Indexer1\IndexerThread.h" />
-    <QtMoc Include="Indexers\Indexer2\Indexer2Thread.h" />
     <ClInclude Include="Matchers\match.h" />
     <ClInclude Include="Matchers\Matcher1\match1.h" />
     <ClInclude Include="Matchers\Matcher2\match2.h" />
